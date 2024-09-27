@@ -1,6 +1,6 @@
-package net.javaguides.springboot.repository;
+package com.example.springboot.repository;
 
-import net.javaguides.springboot.model.Employee;
+import com.example.springboot.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

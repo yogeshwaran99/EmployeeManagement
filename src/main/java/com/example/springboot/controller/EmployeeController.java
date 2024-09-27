@@ -1,8 +1,8 @@
-package net.javaguides.springboot.controller;
+package com.example.springboot.controller;
 
-import net.javaguides.springboot.exception.ResourceNotFoundException;
-import net.javaguides.springboot.model.Employee;
-import net.javaguides.springboot.repository.EmployeeRepository;
+import com.example.springboot.exception.ResourceNotFoundException;
+import com.example.springboot.model.Employee;
+import com.example.springboot.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
